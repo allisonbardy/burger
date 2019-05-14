@@ -1,6 +1,7 @@
 var express = require("express");
 
-var PORT = process.env.PORT || 3080;
+// var PORT = process.env.PORT || 3080;
+server.listen(process.env.PORT || port)
 
 var app = express();
 
@@ -25,3 +26,5 @@ app.use(routes);
 app.listen(PORT, function() {
   console.log("App now listening at localhost:" + PORT);
 });
+
+
