@@ -1,7 +1,6 @@
 var express = require("express");
 
-// var PORT = process.env.PORT || 3080;
-server.listen(process.env.PORT || port)
+var PORT = process.env.PORT || 3080;
 
 var app = express();
 
