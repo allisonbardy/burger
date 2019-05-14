@@ -11,7 +11,7 @@ router.get("/", function(req, res) {
     var hbsObject = {
       cats: data
     };
-    console.log(hbsObject);
+    //console.log(hbsObject);
     res.render("index", hbsObject);
   });
 });
