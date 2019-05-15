@@ -16,7 +16,7 @@ else {
     database: "cat_db"
   });
 }
-connection.connect(git a);
+connection.connect();
 
 // Export connection for our ORM to use.
 module.exports = connection;
